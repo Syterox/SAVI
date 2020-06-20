@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="commands" targetNamespace="http://tempuri.org/commands.xsd" xmlns:mstns="http://tempuri.org/commands.xsd" xmlns="http://tempuri.org/commands.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="commands" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="commands" msprop:Generator_UserDSName="commands">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Comands" msprop:Generator_TableClassName="ComandsDataTable" msprop:Generator_TableVarName="tableComands" msprop:Generator_RowChangedName="ComandsRowChanged" msprop:Generator_TablePropName="Comands" msprop:Generator_RowDeletingName="ComandsRowDeleting" msprop:Generator_RowChangingName="ComandsRowChanging" msprop:Generator_RowEvHandlerName="ComandsRowChangeEventHandler" msprop:Generator_RowDeletedName="ComandsRowDeleted" msprop:Generator_RowClassName="ComandsRow" msprop:Generator_UserTableName="Comands" msprop:Generator_RowEvArgName="ComandsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Comando" msprop:Generator_ColumnVarNameInTable="columnComando" msprop:Generator_ColumnPropNameInRow="Comando" msprop:Generator_ColumnPropNameInTable="ComandoColumn" msprop:Generator_UserColumnName="Comando" type="xs:string" minOccurs="0" />
+              <xs:element name="Respuesta" msprop:Generator_ColumnVarNameInTable="columnRespuesta" msprop:Generator_ColumnPropNameInRow="Respuesta" msprop:Generator_ColumnPropNameInTable="RespuestaColumn" msprop:Generator_UserColumnName="Respuesta" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Ejecucion" msprop:Generator_ColumnVarNameInTable="columnEjecucion" msprop:Generator_ColumnPropNameInRow="Ejecucion" msprop:Generator_ColumnPropNameInTable="EjecucionColumn" msprop:Generator_UserColumnName="Ejecucion" type="xs:string" default="" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

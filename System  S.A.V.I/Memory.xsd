@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Memory" targetNamespace="http://tempuri.org/Memory.xsd" xmlns:mstns="http://tempuri.org/Memory.xsd" xmlns="http://tempuri.org/Memory.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Memory" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Memory" msprop:Generator_UserDSName="Memory">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PsrnMemory" msprop:Generator_TableClassName="PsrnMemoryDataTable" msprop:Generator_TableVarName="tablePsrnMemory" msprop:Generator_TablePropName="PsrnMemory" msprop:Generator_RowDeletingName="PsrnMemoryRowDeleting" msprop:Generator_RowChangingName="PsrnMemoryRowChanging" msprop:Generator_RowEvHandlerName="PsrnMemoryRowChangeEventHandler" msprop:Generator_RowDeletedName="PsrnMemoryRowDeleted" msprop:Generator_UserTableName="PsrnMemory" msprop:Generator_RowChangedName="PsrnMemoryRowChanged" msprop:Generator_RowEvArgName="PsrnMemoryRowChangeEvent" msprop:Generator_RowClassName="PsrnMemoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type" type="xs:string" minOccurs="0" />
+              <xs:element name="voiceF" msprop:Generator_ColumnVarNameInTable="columnvoiceF" msprop:Generator_ColumnPropNameInRow="voiceF" msprop:Generator_ColumnPropNameInTable="voiceFColumn" msprop:Generator_UserColumnName="voiceF" type="xs:string" minOccurs="0" />
+              <xs:element name="greeting" msprop:Generator_ColumnVarNameInTable="columngreeting" msprop:Generator_ColumnPropNameInRow="greeting" msprop:Generator_ColumnPropNameInTable="greetingColumn" msprop:Generator_UserColumnName="greeting" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PsrnMemoryKey1">
+      <xs:selector xpath=".//mstns:PsrnMemory" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

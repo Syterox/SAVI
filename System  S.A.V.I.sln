@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "System  S.A.V.I", "System  S.A.V.I\System  S.A.V.I.vbproj", "{4E2DB51F-BE56-4A6E-AEDC-334A3B361248}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ssavilib", "ssavilib\ssavilib.vbproj", "{943D61BD-834B-46E2-914A-249632D2D803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2DB51F-BE56-4A6E-AEDC-334A3B361248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2DB51F-BE56-4A6E-AEDC-334A3B361248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2DB51F-BE56-4A6E-AEDC-334A3B361248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2DB51F-BE56-4A6E-AEDC-334A3B361248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943D61BD-834B-46E2-914A-249632D2D803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943D61BD-834B-46E2-914A-249632D2D803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943D61BD-834B-46E2-914A-249632D2D803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943D61BD-834B-46E2-914A-249632D2D803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308AF7A6-3A6C-403C-8B5D-3AAFD7039FD2}
+		RESX_NeutralResourcesLanguage = es-419
+		RESX_PrefixTranslations = False
+		RESX_SortFileContentOnSave = False
+		RESX_ResXSortingComparison = CurrentCulture
+		RESX_AutoCreateNewLanguageFiles = True
+		RESX_CodeReferences = {"Items":[{"Expression":"\\W($File.$Key)\\W","Extensions":".cs,.xaml,.cshtml","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"ResourceManager.GetString\\(\"($Key)\"\\)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"typeof\\((\\w+\\.)*($File)\\).+\"($Key)\"|\"($Key)\".+typeof\\((\\w+\\.)*($File)\\)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"\\W($Key)\\W","Extensions":".vb","IsCaseSensitive":true,"SingleLineComment":"'"},{"Expression":"\\W($File::$Key)\\W","Extensions":".cpp,.c,.hxx,.h","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"&lt;%\\$\\s+Resources:\\s*($File)\\s*,\\s*($Key)\\s*%&gt;","Extensions":".aspx,.ascx,.master","IsCaseSensitive":true,"SingleLineComment":null},{"Expression":"StringResourceKey\\.($Key)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":null,"Extensions":null,"IsCaseSensitive":true,"SingleLineComment":null}]}
+		RESX_ExcelExportMode = SingleSheet
+		RESX_ConfirmAddLanguageFile = True
+	EndGlobalSection
+EndGlobal
